@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+    This is the base HTML5 template for the Local Community Event Portal.
+    It includes essential meta tags for character encoding and viewport settings,
+    and defines the basic semantic structure of a web page.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Community Event Portal</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to our Community Portal!</h1>
+            <p>Discover and register for local events.</p>
+        </section>
+
+        <section id="events">
+            <h2>Upcoming Events</h2>
+            <p>Check out what's happening in your community.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with us for any questions.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Local Community Event Portal</p>
+    </footer>
+</body>
+</html>

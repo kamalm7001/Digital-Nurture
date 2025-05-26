@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Example</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#homeSec">Home</a></li>
+            <li><a href="#eventSec">Events</a></li>
+            <li><a href="#contactSec">Contact</a></li>
+            <li><a href="help.html" target="_blank">Help</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="homeSec">
+            <h1>Home Page</h1>
+            <p>Welcome to the portal.</p>
+        </section>
+
+        <section id="eventSec">
+            <h2>Our Events</h2>
+            <p>Details about various events.</p>
+        </section>
+
+        <section id="contactSec">
+            <h2>Get in Touch</h2>
+            <p>Contact information.</p>
+        </section>
+    </main>
+</body>
+</html>

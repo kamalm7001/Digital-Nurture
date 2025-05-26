@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+        .imgBorder {
+            border: 2px solid #333;
+            padding: 5px;
+            margin: 5px;
+            display: block;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Photos</h1>
+    <table>
+        <tr>
+            <td>
+                <img src="https://placehold.co/300x200/ADD8E6/000000?text=Event+A" alt="Event A" title="Community Event A" class="imgBorder">
+                <figcaption>Caption for Event A</figcaption>
+            </td>
+            <td>
+                <img src="https://placehold.co/300x200/90EE90/000000?text=Event+B" alt="Event B" title="Community Event B" class="imgBorder">
+                <figcaption>Caption for Event B</figcaption>
+            </td>
+            <td>
+                <img src="https://placehold.co/300x200/FFD700/000000?text=Event+C" alt="Event C" title="Community Event C" class="imgBorder">
+                <figcaption>Caption for Event C</figcaption>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="https://placehold.co/300x200/FFB6C1/000000?text=Event+D" alt="Event D" title="Community Event D" class="imgBorder">
+                <figcaption>Caption for Event D</figcaption>
+            </td>
+            <td>
+                <img src="https://placehold.co/300x200/C0C0C0/000000?text=Event+E" alt="Event E" title="Community Event E" class="imgBorder">
+                <figcaption>Caption for Event E</figcaption>
+            </td>
+            <td>
+                <img src="https://placehold.co/300x200/DDA0DD/000000?text=Event+F" alt="Event F" title="Community Event F" class="imgBorder">
+                <figcaption>Caption for Event F</figcaption>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
