@@ -1,0 +1,11 @@
+SELECT
+  e.title AS event_title,
+  COUNT(s.session_id) AS num_sessions_10_12
+FROM Events AS e
+JOIN Sessions AS s
+  ON e.event_id = s.event_id
+WHERE
+  TIME(s.start_time) >= '10:00:00' AND TIME(s.end_time) <= '12:00:00'
+GROUP BY
+  e.event_id,
+  e.title;
