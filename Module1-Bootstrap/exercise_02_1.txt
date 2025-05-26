@@ -1,0 +1,3 @@
+CSS Folder: Contains compiled Bootstrap CSS files.
+JS Folder: Contains compiled JavaScript plugins like modal, tooltip, etc.
+Icons Folder: Contains Bootstrap icon library.
