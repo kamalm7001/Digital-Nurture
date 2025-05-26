@@ -1,0 +1,4 @@
+1. Open Chrome DevTools (F12).
+2. Check Console for errors.
+3. Use Network tab to inspect fetch requests.
+4. Add breakpoints and step through JavaScript.
